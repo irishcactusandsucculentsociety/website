@@ -25,7 +25,5 @@ base_url: https://irishcactusandsucculentsociety.github.io/website
 
             </div>
         </section>
-
-
     </div>
 </div>

@@ -10,6 +10,7 @@ base_url: https://irishcactusandsucculentsociety.github.io/website
         Welcome to the Irish Cactus and Succulent Society Website
     </h2>
 </section>
+
 <!-- Calendar -->
 <section class="newproducts clearfix">
     <div class="container">
@@ -29,36 +30,35 @@ base_url: https://irishcactusandsucculentsociety.github.io/website
 
 <!-- potting party -->
 <section id="" class="potting clearfix">
-        <div class="potting_small onleft">
-            <div class="text">
-                <h3>
-                    Become a MEMBER!*:)
-                </h3>
-
-            </div>
+    <div class="potting_small onleft">
+        <div class="text">
+            <h3>
+                Become a MEMBER!*:)
+            </h3>
         </div>
+    </div>
 
-        <div class="potting_small onright">
-            <div class="text">
-                <p>
-                    <strong>
-                        Benefits of membership
-                    </strong>
-                </p>
-                <ul>
-                    <li><span class="">&centerdot;</span> Illustrated talks on various methods of culture</li>
-                    <li><span class="">&centerdot;</span> Extensive seed list  </li>
-                    <li><span class="">&centerdot;</span> Society Library from which members may borrow books on all aspects of cacti and succulents </li>
-                    <li><span class="">&centerdot;</span> Members plants sales or exchanges</li>
-                    <li><span class="">&centerdot;</span> Advice on plant cultivation</li>
-                    <li><span class="">&centerdot;</span> Four full colour magazines a year</li>
-                    <li><span class="">&centerdot;</span> The Biannual Cactus & Succulent Society Branch Show.</li>
-                    <li><span class="">&centerdot;</span> Lectures on various trips made to see these plants in their native habitat  </li>
-                    <li><span class="">&centerdot;</span> Plants you wish to have identified  </li>
-                    <li><span class="">&centerdot;</span> Exhibitions  </li>
-                </ul>
-            </div>
+    <div class="potting_small onright">
+        <div class="text">
+            <p>
+                <strong>
+                    Benefits of membership
+                </strong>
+            </p>
+            <ul>
+                <li><span class="">&centerdot;</span> Illustrated talks on various methods of culture</li>
+                <li><span class="">&centerdot;</span> Extensive seed list  </li>
+                <li><span class="">&centerdot;</span> Society Library from which members may borrow books on all aspects of cacti and succulents </li>
+                <li><span class="">&centerdot;</span> Members plants sales or exchanges</li>
+                <li><span class="">&centerdot;</span> Advice on plant cultivation</li>
+                <li><span class="">&centerdot;</span> Four full colour magazines a year</li>
+                <li><span class="">&centerdot;</span> The Biannual Cactus & Succulent Society Branch Show.</li>
+                <li><span class="">&centerdot;</span> Lectures on various trips made to see these plants in their native habitat  </li>
+                <li><span class="">&centerdot;</span> Plants you wish to have identified  </li>
+                <li><span class="">&centerdot;</span> Exhibitions  </li>
+            </ul>
         </div>
+    </div>
 </section>
 
 <section class="stories clearfix">
@@ -67,9 +67,5 @@ base_url: https://irishcactusandsucculentsociety.github.io/website
             Latest News
         </h3>
         <!-- blog post -->
-
-
-
-
-        </div>
+    </div>
 </section>
