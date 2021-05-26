@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+base_url: https://irishcactusandsucculentsociety.github.io/website
 ---
 <section class="clearfix index">
     <div id="index_banner">
