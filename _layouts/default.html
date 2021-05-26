@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="author" content="Gabriela Antohi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ base_url }}/stylesheets/app.css">
-    <link rel="stylesheet" type="text/css" href="{{ base_url }}/stylesheets/main.css">
-    <link rel="stylesheet" type="text/css" href="{{ base_url }}/stylesheets/animsition/css/animsition.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ base_url }}/stylesheets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}/stylesheets/app.css">
+    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}/stylesheets/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}/stylesheets/slick/slick.css">
     <script src="https://use.fontawesome.com/3d3a53909b.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -32,7 +32,7 @@
 
         <div class="wrap_header">
             <!-- logo -->
-            <a href="{{ base_url }}/" class="logo">
+            <a href="{{ page.base_url }}/" class="logo">
                 ICSS
             </a>
             <!-- nav -->
@@ -41,13 +41,13 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="{{ base_url }}//index.html">Home</a>
+                                <a href="{{ page.base_url }}//index.html">Home</a>
                             </li>
                             <li>
-                                <a href="{{ base_url }}//about.html">About</a>
+                                <a href="{{ page.base_url }}//about.html">About</a>
                             </li>
                             <li>
-                                <a href="{{ base_url }}//contact.html">Contact</a>
+                                <a href="{{ page.base_url }}//contact.html">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -63,7 +63,7 @@
 </header>
 
 <!-- Header -->
-<script type="text/javascript" src="{{ base_url }}/javascripts/jquery.js"></script>
+<script type="text/javascript" src="{{ page.base_url }}/javascripts/jquery.js"></script>
 
 {{ content }}
 
@@ -113,11 +113,11 @@
             </span>
     </div>
 
-</footer>    <script type="text/javascript" src="{{ base_url }}/javascripts/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="{{ base_url }}/stylesheets/animsition/js/animsition.min.js"></script>
-<script type="text/javascript" src="{{ base_url }}/stylesheets/slick/slick.min.js"></script>
-<script type="text/javascript" src="{{ base_url }}/javascripts/slick-custom.js"></script>
-<script type="text/javascript" src="{{ base_url }}/javascripts/main.js"></script>
+</footer>    <script type="text/javascript" src="{{ page.base_url }}/javascripts/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="{{ page.base_url }}/stylesheets/animsition/js/animsition.min.js"></script>
+<script type="text/javascript" src="{{ page.base_url }}/stylesheets/slick/slick.min.js"></script>
+<script type="text/javascript" src="{{ page.base_url }}/javascripts/slick-custom.js"></script>
+<script type="text/javascript" src="{{ page.base_url }}/javascripts/main.js"></script>
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
