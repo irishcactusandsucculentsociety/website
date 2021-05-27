@@ -1,4 +1,6 @@
-base_url: https://irishcactusandsucculentsociety.github.io/website
-twitter_page_url: https://twitter.com/CactusSocietyIE
-facebook_page_url: https://www.facebook.com/CactusandSucculentSocietyofIreland
-facebook_group_url: https://www.facebook.com/groups/203262631112580/
+defaults:
+  -
+    base_url: https://irishcactusandsucculentsociety.github.io/website
+    twitter_page_url: https://twitter.com/CactusSocietyIE
+    facebook_page_url: https://www.facebook.com/CactusandSucculentSocietyofIreland
+    facebook_group_url: https://www.facebook.com/groups/203262631112580/
