@@ -14,13 +14,13 @@ covid_holdoff: true
 <!-- Calendar -->
 <section class="newproducts clearfix">
     <div class="container">
-        {% if page.covid_holdoff == "true" %}
+        {% if page.covid_holdoff %}
         <p class="center">
             Due to the ongoing COVID restrictions our regular monthly meeting is cancelled.
         </p>
-        <br />
+
         <p class="center">
-            In the mean time, drop in to our <a href="{{ page.facebook_group_url }}">Facebook group</a> and say hello!
+            In the mean time, drop in to our <a href="{{ site.facebook_group_url }}">Facebook group</a> and say hello!
         </p>
         <br />
         {% else %}

@@ -18,7 +18,7 @@ title: Contact
 
                 <p>If you have questions about the next meeting or joining the Society shoot us an email at <a href="mailto:frankkeoghan2@gmail.com">frankkeoghan2@gmail.com</a> or give us a call on <strong>(+353) 87-2308330</strong></p>
 
-                <p>We have a <a href="{{ page.facebook_group_url }}">Facebook group</a> which is very active with cultivation questions, pictures of plants and blossoms, and so on. Drop by and say hello!</p>
+                <p>We have a <a href="{{ site.facebook_group_url }}">Facebook group</a> which is very active with cultivation questions, pictures of plants and blossoms, and so on. Drop by and say hello!</p>
 
                 <p>We also host meetings in the Dublin Botanical Gardens, visitors are most welcome!</p>
 

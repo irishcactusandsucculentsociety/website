@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }} - Irish Cactus and Succulent Society</title>
+    <title>{{ site.title }} - Irish Cactus and Succulent Society</title>
     <meta charset="UTF-8">
     <meta name="author" content="Gabriela Antohi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ base_url }}/stylesheets/app.css">
-    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}/stylesheets/main.css">
-    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}/stylesheets/animsition/css/animsition.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}/stylesheets/slick/slick.css">
-
+    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/app.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/animsition/css/animsition.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/slick/slick.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -24,15 +22,15 @@
     <div class="container-menu-header">
         <div class="topbar">
             <div class="topbar-social">
-                <a href="{{ page.facebook_page_url }}" class="topbar-social-item fa fa-facebook" target="_blank"></a>
-                <a href="{{ page.twitter_page_url }}" class="topbar-social-item fa fa-twitter" target="_blank"></a>
+                <a href="{{ site.facebook_page_url }}" class="topbar-social-item fa fa-facebook" target="_blank"></a>
+                <a href="{{ site.twitter_page_url }}" class="topbar-social-item fa fa-twitter" target="_blank"></a>
                 <!--<a href="https://www.pinterest.ie/irishcactusandsucculentsociety" class="topbar-social-item fa fa-pinterest-p" target="_blank"></a>-->
             </div>
         </div>
 
         <div class="wrap_header">
             <!-- logo -->
-            <a href="{{ page.base_url }}" class="logo">
+            <a href="{{ site.base_url }}" class="logo">
                 ICSS
             </a>
             <!-- nav -->
@@ -41,13 +39,13 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="{{ page.base_url }}/index.html">Home</a>
+                                <a href="{{ site.base_url }}/index.html">Home</a>
                             </li>
                             <li>
-                                <a href="{{ page.base_url }}/about.html">About</a>
+                                <a href="{{ site.base_url }}/about.html">About</a>
                             </li>
                             <li>
-                                <a href="{{ page.base_url }}/contact.html">Contact</a>
+                                <a href="{{ site.base_url }}/contact.html">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -77,9 +75,9 @@
                 </p>
                 <!--social media - icons from fontawesome-->
                 <div class="social">
-                    <a href="{{ page.facebook_page_url }}" class="color_pink fa fa-facebook fa-2x" target="_blank"></a>
+                    <a href="{{ site.facebook_page_url }}" class="color_pink fa fa-facebook fa-2x" target="_blank"></a>
                     <!--<a href="#" class="color_pink fa fa-instagram fa-2x" target="_blank"></a>-->
-                    <a href="{{ page.twitter_page_url }}" class="color_pink fa fa-twitter fa-2x" target="_blank"></a>
+                    <a href="{{ site.twitter_page_url }}" class="color_pink fa fa-twitter fa-2x" target="_blank"></a>
                     <!--<a href="https://www.pinterest.co.uk/irishcactusandsucculentsociety" class="topbar-social-item fa fa-pinterest-p fa-2x" target="_blank"></a>-->
                 </div>
 
@@ -113,12 +111,13 @@
 </footer>
 <script src="https://use.fontawesome.com/3d3a53909b.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{ page.base_url }}/javascripts/jquery.js"></script>
-<script type="text/javascript" src="{{ page.base_url }}/javascripts/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="{{ page.base_url }}/stylesheets/animsition/js/animsition.min.js"></script>
-<script type="text/javascript" src="{{ page.base_url }}/stylesheets/slick/slick.min.js"></script>
-<script type="text/javascript" src="{{ page.base_url }}/javascripts/slick-custom.js"></script>
-<script type="text/javascript" src="{{ page.base_url }}/javascripts/main.js"></script>
+<script type="text/javascript" src="{{ "/javascripts/jquery.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/javascripts/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/stylesheets/animsition/js/animsition.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/stylesheets/slick/slick.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/javascripts/slick-custom.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/javascripts/main.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/javascripts/mobile.js" | prepend: site.baseurl }}"></script>
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
