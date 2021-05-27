@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-base_url: https://irishcactusandsucculentsociety.github.io/website
 ---
 <div class="pagebackground clearfix">
     <div class="container">

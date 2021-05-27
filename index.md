@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-base_url: https://irishcactusandsucculentsociety.github.io/website
+covid_holdoff: true
 ---
 <section class="clearfix index">
     <div id="index_banner">
@@ -14,6 +14,16 @@ base_url: https://irishcactusandsucculentsociety.github.io/website
 <!-- Calendar -->
 <section class="newproducts clearfix">
     <div class="container">
+        {% if page.covid_holdoff == "true" %}
+        <p class="center">
+            Due to the ongoing COVID restrictions our regular monthly meeting is cancelled.
+        </p>
+        <br />
+        <p class="center">
+            In the mean time, drop in to our <a href="{{ page.facebook_group_url }}">Facebook group</a> and say hello!
+        </p>
+        <br />
+        {% else %}
         <p class="center">
             <strong>Regular meetings</strong> take place on the second Thursday of <strong>each month of 2020 at 7.30pm</strong>  in the National Botanic Gardens, Glasnevin.
         </p>
@@ -25,6 +35,7 @@ base_url: https://irishcactusandsucculentsociety.github.io/website
             <div class="slick2">
             </div>
         </div>
+        {% endif %}
     </div>
 </section>
 
