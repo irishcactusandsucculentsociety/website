@@ -75,7 +75,7 @@ covid_holdoff: true
 <section class="stories clearfix">
     <div class="container">
         <h3 class="center">
-            Latest News
+            Latest News - Test
         </h3>
         <!-- blog post -->
     </div>
