@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-covid_holdoff: true
+covid_holdoff: false
 ---
 <section class="clearfix index">
     <div id="index_banner">
