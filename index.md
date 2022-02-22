@@ -12,16 +12,15 @@ covid_holdoff: false
 </section>
 
 <!-- Calendar -->
-<section class="newproducts clearfix">
+<section class="timetable clearfix">
     <div class="container">
         {% if page.covid_holdoff %}
-        <p class="center">
+        <strong><p class="center">
             Due to the ongoing COVID restrictions our regular monthly meeting is cancelled.
         </p>
-
         <p class="center">
-            In the mean time, drop in to our <a href="{{ site.facebook_group_url }}">Facebook group</a> and say hello!
-        </p>
+            In the mean time, drop in to our <a href="{{ site.facebook_group_url }}" target="_blank">Facebook group</a> and say hello!
+        </p></strong>
         <br />
         {% else %}
         <p class="center">
@@ -30,53 +29,58 @@ covid_holdoff: false
         <p class="center">
             There are no meetings in January or December.
         </p>
-        <!-- Slide2 -->
-        <div class="wrap-slick2">
-            <div class="slick2">
-            </div>
-        </div>
         {% endif %}
     </div>
 </section>
 
-<!-- potting party -->
+<!-- become a member -->
 <section id="" class="potting clearfix">
     <div class="potting_small onleft">
-        <div class="text">
+        <div class="text" style="display:none">
             <h3>
-                Become a MEMBER!*:)
+                Become a member!*:)
             </h3>
         </div>
     </div>
-
     <div class="potting_small onright">
         <div class="text">
-            <p>
+            <h3>
                 <strong>
                     Benefits of membership
                 </strong>
-            </p>
+            </h3>
             <ul>
-                <li><span class="">&centerdot;</span> Illustrated talks on various methods of culture</li>
-                <li><span class="">&centerdot;</span> Extensive seed list  </li>
-                <li><span class="">&centerdot;</span> Society Library from which members may borrow books on all aspects of cacti and succulents </li>
-                <li><span class="">&centerdot;</span> Members plants sales or exchanges</li>
-                <li><span class="">&centerdot;</span> Advice on plant cultivation</li>
-                <li><span class="">&centerdot;</span> Four full colour magazines a year</li>
-                <li><span class="">&centerdot;</span> The Biannual Cactus & Succulent Society Branch Show.</li>
-                <li><span class="">&centerdot;</span> Lectures on various trips made to see these plants in their native habitat  </li>
-                <li><span class="">&centerdot;</span> Plants you wish to have identified  </li>
-                <li><span class="">&centerdot;</span> Exhibitions  </li>
+                <li>Illustrated talks on various methods of culture</li>
+                <li>Extensive seed list  </li>
+                <li>Society Library from which members may borrow books on all aspects of cacti and succulents </li>
+                <li>Members plants sales or exchanges</li>
+                <li>Advice on plant cultivation</li>
+                <li>Four full colour magazines a year</li>
+                <li>The Biannual Cactus & Succulent Society Branch Show.</li>
+                <li>Lectures on various trips made to see these plants in their native habitat  </li>
+                <li>Plants you wish to have identified  </li>
+                <li>Exhibitions  </li>
             </ul>
         </div>
     </div>
 </section>
-
-<section class="stories clearfix">
+<!-- Container element for parallax-->
+<div class="potting_para"></div>
+<section class="medias clearfix">
     <div class="container">
-        <h3 class="center">
-            Latest News
-        </h3>
-        <!-- blog post -->
+        <br>
+        <!-- video cactus show -->
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/nULIo2jaWdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-related">
+            <h3>
+                <strong>
+                    Events
+                </strong>
+            </h3>
+            <p> Our aim is to organize a show every year.</p>
+            <p> Here is a glimpse at our last show.</p>
+        </div>
     </div>
 </section>
