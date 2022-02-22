@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/app.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="/stylesheets/app.css "/>
+    <link rel="stylesheet" href="/stylesheets/main.css "/>
+    <link rel="stylesheet" href="/stylesheets/animsition/css/animsition.min.css"/>
     <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/animsition/css/animsition.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/slick/slick.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
@@ -19,20 +22,19 @@
 <body class="animsition">
 <!-- Header -->
 <header class="header1">
-    <div class="container-menu-header">
-        <div class="topbar">
-            <div class="topbar-social">
-                <a href="{{ site.facebook_page_url }}" class="topbar-social-item fa fa-facebook" target="_blank"></a>
-                <a href="{{ site.twitter_page_url }}" class="topbar-social-item fa fa-twitter" target="_blank"></a>
-                <!--<a href="https://www.pinterest.ie/irishcactusandsucculentsociety" class="topbar-social-item fa fa-pinterest-p" target="_blank"></a>-->
-            </div>
+        <div class="left-social">
+            <a href="{{ site.facebook_page_url }}" class="left-social-item fa fa-facebook" target="_blank"></a>
+            <a href="{{ site.instagram_url}}" class="left-social-item fa fa-instagram" target="_blank"></a>
+            <a href="{{ site.twitter_page_url }}" class="left-social-item fa fa-twitter" target="_blank"></a>
+            <a href="{{ site.pinterest_url }}" class="left-social-item fa fa-pinterest-p" target="_blank"></a>
         </div>
 
+    <div class="container-menu-header">
+        <!-- logo -->
+        <a href="{{ site.baseurl }}" class="logo">
+            ICSS
+        </a>
         <div class="wrap_header">
-            <!-- logo -->
-            <a href="{{ site.baseurl }}" class="logo">
-                ICSS
-            </a>
             <!-- nav -->
             <div class="wrap_menu">
                 <div id="container">
@@ -42,11 +44,15 @@
                                 <a href="{{ site.baseurl }}/index.html">Home</a>
                             </li>
                             <li>
+                                <a href="{{ site.baseurl }}/news.html">News</a>
+                            </li>
+                            <li>
                                 <a href="{{ site.baseurl }}/about.html">About</a>
                             </li>
                             <li>
                                 <a href="{{ site.baseurl }}/contact.html">Contact</a>
                             </li>
+
                         </ul>
                     </nav>
                     <div class="mobile">
@@ -77,9 +83,9 @@
                 <!--social media - icons from fontawesome-->
                 <div class="social">
                     <a href="{{ site.facebook_page_url }}" class="color_pink fa fa-facebook fa-2x" target="_blank"></a>
-                    <!--<a href="#" class="color_pink fa fa-instagram fa-2x" target="_blank"></a>-->
+                    <a href="{{ site.instagram_url}}" class="color_pink fa fa-instagram fa-2x" target="_blank"></a>
                     <a href="{{ site.twitter_page_url }}" class="color_pink fa fa-twitter fa-2x" target="_blank"></a>
-                    <!--<a href="https://www.pinterest.co.uk/irishcactusandsucculentsociety" class="topbar-social-item fa fa-pinterest-p fa-2x" target="_blank"></a>-->
+                    <a href="{{ site.pinterest_url }}" class="color_pink fa fa-pinterest-p fa-2x" target="_blank"></a>
                 </div>
 
             </div>
@@ -88,7 +94,7 @@
                     Address
                 </h4>
                 <p>
-                    Dublin and District Cactus and Society<br />
+                    Irish Cactus and Succulent Society<br />
                     25 Shanowen Crescent<br />
                     Dublin 9<br />
                     Ireland
@@ -120,6 +126,16 @@
 <script type="text/javascript" src="{{ "/javascripts/slick-custom.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/javascripts/main.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/javascripts/mobile.js" | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/mobile.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/stylesheets/animsition/js/animsition.min.js"></script>
+<script type="text/javascript" src="/stylesheets/slick/slick.min.js"></script>
+<script type="text/javascript" src="/javascripts/slick-custom.js"></script>
+<script type="text/javascript" src="/javascripts/main.js"></script>
+<script type="text/javascript" src="/javascripts/mobile.js"></script>
+
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
