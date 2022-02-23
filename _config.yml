@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: ""
 twitter_page_url: https://twitter.com/CactusSocietyIE
 facebook_page_url: https://www.facebook.com/CactusandSucculentSocietyofIreland
 facebook_group_url: https://www.facebook.com/groups/203262631112580/
@@ -8,3 +8,4 @@ society_contact_email: frankkeoghan2@gmail.com
 society_contact_number: +35387 230 8330
 google_analytics_enabled: true
 google_analytics_id: G-2KVY3T9LVS
+excerpt_separator: <!-- excerpt ends here -->
