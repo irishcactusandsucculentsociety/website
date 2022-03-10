@@ -25,7 +25,7 @@ covid_holdoff: false
         <br />
         {% else %}
         <p class="center">
-            <strong>Regular meetings</strong> take place on the second Thursday of <strong>each month of 2020 at 7.30pm</strong>  in the National Botanic Gardens, Glasnevin.
+            <strong>Regular meetings</strong> take place on the second Thursday of <strong>each month of 2022 at 7.30pm</strong>  in the National Botanic Gardens, Glasnevin.
         </p>
         <p class="center">
             There are no meetings in January or December.
