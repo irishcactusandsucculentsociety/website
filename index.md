@@ -6,6 +6,9 @@ covid_holdoff: false
 <section class="clearfix index">
     <div id="index_banner">
     </div>
+   <div class="credits">
+       [Notocactus Uebelmannianus in Derek Cluskey's collection] 
+    </div>
     <h2 class="index_header">
         Welcome to the Irish Cactus and Succulent Society Website
     </h2>
@@ -17,18 +20,24 @@ covid_holdoff: false
         {% if page.covid_holdoff %}
         <strong><p class="center">
             Due to the ongoing COVID restrictions our regular monthly meeting is cancelled.
-        </p>
+        </p></strong>
         <p class="center">
             In the mean time, drop in to our <a href="{{ site.facebook_group_url }}" target="_blank">Facebook group</a> and say hello!
-        </p></strong>
+        </p>
         <br />
         {% else %}
         <p class="center">
             <strong>Regular meetings</strong> take place on the second Thursday of <strong>each month of 2022 at 7.30pm</strong>  in the National Botanic Gardens, Glasnevin.
         </p>
-        <p class="center">
-            There are no meetings in January or December.
+        <p class="center" style="margin-top:-10px;">
+           <strong>Why not show off?</strong>
         </p>
+        <p style="margin-top:-10px;">
+            Bring your ten favourite plants and put them on the bench! This is not competitive but does provide a chance to share plants that are not show-worthy or don’t fit a class or just to have a chat about their cultivation etc. We all have them – so bring them along and make it an interesting evening. It will also help you to get ready for the Show.
+        </p>   
+        <p style="margin-top:-10px;"><em>
+            Get into the habit of bringing along appropriate plants each month - after all horticultural societies are about plants!
+        </em></p>
         {% endif %}
     </div>
 </section>
@@ -67,20 +76,20 @@ covid_holdoff: false
 <!-- Container element for parallax-->
 <div class="potting_para"></div>
 <section class="medias clearfix">
-    <div class="container">
+    <div class="main_wrapper">
         <br>
-        <!-- video cactus show -->
-        <div class="video">
-            <iframe src="https://www.youtube.com/embed/nULIo2jaWdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
         <div class="video-related">
             <h3>
                 <strong>
                     Events
                 </strong>
             </h3>
-            <p> Our aim is to organize a show every year.</p>
-            <p> Here is a glimpse at our last show.</p>
+            <p> Our aim is to organize a show every year, our next one is on Saturday June 11th.</p>
+            <p> Here is a glimpse at our 2019 show.</p>
+        </div>
+        <!-- video cactus show -->
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/nULIo2jaWdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </section>

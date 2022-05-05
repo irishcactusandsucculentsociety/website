@@ -16,7 +16,7 @@ body, html, body.animsition {
     font-size: 16px;
     line-height: 26px;
     background-color: rgba(255, 248, 245, 1);
-    color:black;
+    color:#282728;
     }
 
     h2, h3, h4, h5, h6, .moto, .index_header {
@@ -103,23 +103,48 @@ button {
 	background-color: transparent;
     }
 
-.container {
-	max-width: 1200px;
-    }
-
-.container {
-    margin-right: auto;
+.main_wrapper{
+	max-width: 1170px;
+	margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-    width: 100%;
+    width: 95%;
+    }
+
+    .timetable, .medias, .potting{
+        background-color: rgba(255, 248, 245, 1);
+    }
+
+    .main_wrapper.secondary p, .main_wrapper.secondary a{
+        color: rgba(255, 248, 245, 1);
     }
 
 .pagebackground {
     width: 100%;
-    background-color: #fefaf7;
+    background-color: #282728;
+    color: rgba(255, 248, 245, 1);
     height: auto;
     }
+
+.pagebackground.news{
+    width:70%;
+    margin:0 auto;
+    }
+
+.pagebackground.blog{
+    background-color: rgba(255, 248, 245, 1);
+    color:#282728;
+}
+.pagebackground.blog p, .pagebackground.blog a,.pagebackground.blog h4{
+    color: #282728;
+    }
+
+.pagebackground.blog h4, .pagebackground.blog p.moto{
+    font-weight:bold;
+    }
+
+.pagebackground.blog p.moto{font-size:3em}
 
 .slick-slide {
     outline: none;
@@ -244,6 +269,18 @@ a.logo {
     font-weight: 700;
     }
 
+div.blog_logo.moto{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    z-index: 99991;
+    font-size: 3em;
+    line-height:1.1em;
+    width:90%;
+    padding-top:150px;
+    color: #282728;
+    margin:0 auto;
+}
+
 
 .logo:hover {
     color: #191c25;
@@ -307,14 +344,14 @@ h2.index_header {
     font-weight:500;
 }
 .timetable {
-    padding: 60px 0 30px 0;
+    padding: 40px 0 40px 0;
 }
     .timetable p {
         color: #000;
-        width: 85%;
+        width: 95%;
         margin: 0 auto;
-        max-width: 700px;
-        font-size:18px;
+        max-width: 1000px;
+        font-size:16px;
     }
 
      button.btn.btn-default.header {
@@ -349,8 +386,7 @@ div.navbar-header {
 
 /*potting section*/
 .potting {
-    width: 80%;
-    margin:0 auto;
+    margin:-10px auto 30px auto;
     position:relative;
 }
 
@@ -359,10 +395,8 @@ div.navbar-header {
   background-image: url("../images/parallax.png");
 
   /* Set a specific height */
-  min-height: 550px;
+  min-height: 300px;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -376,18 +410,18 @@ div.navbar-header {
     display: list-item;
 }
 
-
 .potting_small.onright {
     min-height: 500px;
-    width: 100%;
+    width: 90%;
     padding: 30px 30px 50px 50px;
-    background-color: #fefaf7;
     font-family: Lato, sans-serif;   
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 1px;
     margin-bottom:50px;
-    border:5px solid black;
+    border:5px solid #282728;
+    margin:0px auto 20px auto;
+    background-color: rgba(255, 248, 245, 1);
 }
 
 .potting_small.onright h3, .medias h3 {
@@ -403,18 +437,26 @@ div.navbar-header {
 
 .video{
     width:100%;
+    margin-top:30px;
 }
+
 .video-related{
     width:100%;
     padding: 20px 10px 20px 20px;
-    border:5px solid black;
+    border:5px solid #282728;
+    background-color:#282728;
+    color: rgba(255, 248, 245, 1);
+    margin-top:-100px;
+    margin-bottom:50px;
 }
+
 .video-related p {
-   color:black;
+   color:#282728;
    font-size: 16px;
    line-height: 25px;
+   color: rgba(255, 248, 245, 1);
    padding:0;
-   width:65%;
+   width:90%;
    }
 
 iframe{
@@ -463,14 +505,44 @@ label {
     padding-top:10px;
 }
 
-p a {
-    color: black;
+a.learn-more{
+    display:block;
+    margin-top: -15px;
+    z-index:9901;
+    position: relative;
+    }
+
+p a, a.learn-more {
+    color: rgba(255, 248, 245, 1);
     font-weight:bold;
     font-size:18px;
     text-decoration-line:underline;
+
 }
-p a:hover, p a:active {
-    color: black;
+
+p a:hover, p a:active, a.learn-more:hover,a.color_pink:hover {
+    color: rgba(255, 248, 245, 1);
+    font-weight:bold;
+    font-size:19px;
+    text-decoration:none;
+}
+p a.color_pink:hover, p a.color_pink:active {
+    color: #282728
+}
+.background_pages{
+    position:relative;
+    }
+
+.back-link {
+    position:absolute;
+    left:0;
+    top:116px;
+    color:gray;
+    font-size:16px;
+    }
+
+.back-link:hover{
+    color:gray;
     font-weight:bold;
     font-size:19px;
     text-decoration:none;
@@ -510,7 +582,7 @@ p a:hover, p a:active {
 }
 .largeimg{
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 248, 245, 1);
     height: 300px;
     position: relative;
     background: url('../images/echino/echinocactus_banner.jpg');
@@ -521,41 +593,57 @@ p a:hover, p a:active {
 }
 .onimage {
     display:block;
-    margin-top: -75px;
-    padding: 20px 15px 20px 30px;
+    margin-top: -20px;
+    padding: 20px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
     z-index:9900;
     position: relative;
-    color:black;
-    width: 50%;
+    color:#282728;
+    width: 100%;
     font-weight:bold;
-    background-color:white;
-    border:2px solid black;
+    font-style:italic;
+}
+
+.blog-wrapper{
+    padding-bottom:10px;
+}
+
+.main-blog-text{
+    padding-top:20px;
+    }
+
+.small-echino{
+    display:block;
+    margin-top: -200px;
+    z-index:9905;
+    position: relative;
 }
 
 .story{
 	width:100%;
-	background-color:white;
+	background-color:rgba(255, 248, 245, 1);
 	}
 
-.story_details h4 {
-    color: black;
+.pagebackground h4, .blog-wrapper h4 {
+    color: rgba(255, 248, 245, 1);
     font-family: 'Playfair Display', serif;
     font-size: 1.7em;
-    padding-top:20px;
+    padding-top:0;
     }
+
+.blog-wrapper h4 {
+    padding-top:10px;
+}
 
 .stories {
     background-color: #fff7f6;
     padding: 50px 0 50px 0;
 }
-.stories h4 a{
+.stories h4 a, pagebackground h4 a{
 	display:block;
 	font-size:1.2em;
 	}
 
-.stories .size img{
-    width:100%;
-}
 .span_line{
 	margin:0 6px;
 }
@@ -564,22 +652,18 @@ p a:hover, p a:active {
     padding:10px;
     float: right;
 }
-.flower{
-    width:50%;
+.small-image{
+    max-width:50%;
     padding:10px;
     float: left;
-}
-
-.flower img{
-    width:100%;
-    height:auto;
+    max-height:350px;
 }
 
 }
 .section_stories_category {
     width: 100%;
 }
-.section_contact .container {
+.section_contact .main_wrapper {
     overflow: hidden;
 }
 
@@ -589,8 +673,8 @@ p a:hover, p a:active {
 }
     #myBtnContainer button.btn {
         padding: 15px 60px;
-        border: 2px solid black;
-        color: black;
+        border: 2px solid rgba(255, 248, 245, 1);
+        color: rgba(255, 248, 245, 1);
         text-align: left;
         background-color: transparent;
         margin-right: 10px;
@@ -602,8 +686,8 @@ p a:hover, p a:active {
         letter-spacing: 2px;
     }
         #myBtnContainer button.btn.active, #myBtnContainer button.btn:hover {
-            color: white;
-            background-color: black;
+            color: #282728;
+            background-color: rgba(255, 248, 245, 1);
             font-weight:bold
         }
 
@@ -614,42 +698,26 @@ p a:hover, p a:active {
 .show {
     display: block;
 }
-
-/*open/close div from https://codepen.io/Idered/pen/AeBgF*/
-.read-more-state {
-  display: none;
+.image-block{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.max-width{
+    width:100%;
+    max-width:1000px;
+    margin:20px auto;
 }
 
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .5s ease;
-}
+.span_details {
+    padding-bottom:5px;
+    font-weight:bold;
+    }
 
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-}
-p.read-more-wrap, .item-blog-txt label{
-	display:inline;
-	}
-
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Continue Reading ...';
-}
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: '  ... See less';
-}
-
-.read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  color: #ffbeb9;
-  margin-left:-3px;
-}
+.img-echino-in-garden{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    }
 
 .span_details .cat{
     text-transform:uppercase;
@@ -660,14 +728,13 @@ p.read-more-wrap, .item-blog-txt label{
 .background_pages {
     width: 97%;
     min-height: 100px;
-    padding: 50px 0px 10px;
+    padding: 150px 0px 10px;
 }
 /*about page*/
 
 .about_header h2, .contact_header h2 {
     text-transform: uppercase;
     margin-bottom: 5px;
-    color: black;
     font-size: 16px;
     margin-top: -20px;
     letter-spacing:2px;
@@ -678,26 +745,17 @@ p.read-more-wrap, .item-blog-txt label{
 	line-height:1.1em;
 	width:70%;
     padding-top:20px;
-    color: black;
+    color: #282728;
 }
 
 .section_about, .section_contact, .section_stories, .section_stories_category {
-    width: 97%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 20px auto 50px auto;
 }
 .section_about p{
 	margin:7px 0
 	}
-.banner_stories{
-	background-image: url(../images/agave1.jpg);
-	background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: contain;
-	width:90%;
-	min-height:450px;
-	margin:0 auto;
-    margin-top:-20px;
-}
+
 .section_contact h4, .section_about h4{
 	margin-top:10px;
 
@@ -718,26 +776,6 @@ p.read-more-wrap, .item-blog-txt label{
         font-size: 16px;
         letter-spacing: 2px;
         font-weight: bold;
-    }
-
-.calendar_date {
-    min-height: 400px;
-    text-align: center;
-    padding: 30px 20px;
-    border:5px solid #1a1e29;
-    color: #1a1e29;
-    clear: both;
-    position: relative;
-    z-index: 2;
-}
-.meetdescription {
-    text-align:left;
-}
-
-.meetdescription .title {
-     text-align: center;
-     font-weight:700;
-     
     }
 
 .relative{
@@ -769,7 +807,7 @@ p.read-more-wrap, .item-blog-txt label{
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
     border: 1px solid rgba(255, 248, 245, 1);
-    background-color: #1a1e29;
+    background-color: #282728;
 }
 .symbol-btn-back-to-top {
     font-size: 22px;
@@ -789,9 +827,11 @@ p.read-more-wrap, .item-blog-txt label{
 
 /*footer*/
 footer {
-    padding: 20px;
+    padding: 20px 0 20px 0;
     position: relative;
-    color: black;
+    color: #282728;
+    width:100%;
+    margin:0 auto;
 }
 
     footer p {
@@ -803,6 +843,10 @@ footer {
         font-weight:bold;
     }
 
+    footer .vertical{
+        margin-top:10px;
+    }
+
     footer .vertical p {
         font-size: 15px;
         padding: 0;
@@ -812,7 +856,7 @@ footer {
 
     footer .vertical span {
         content: "";
-        color: black;
+        color: #282728;
         height: 4px;
         padding-left: 150px;
         margin-left: -100px;
@@ -820,11 +864,12 @@ footer {
         display: inline-block;
         position: relative;
         vertical-align: middle;
-        width: 40%;
-        background-color:black;
+        width: 45%;
+        background-color:#282728;
     }
+
     footer .inner_container{
-        padding:0 20px 0 25px;
+        margin: 20px auto;
     }
 
     footer h4 {
@@ -836,7 +881,8 @@ footer {
 
     footer .get_in_touch, footer .get_in_touch2 {
         width: 90%;
-        padding: 20px 0px 10px 0px;
+        padding: 30px 0px 0px 0px;
+        float:none;
     }
 
 ::-webkit-input-placeholder {
@@ -917,13 +963,10 @@ button:hover {
 .center {
     text-align: center;
 }
-.color_pink {
-    color: black;
+.color_pink, .color_pink:hover,.social a, .social a:hover  {
+    color: #282728
 }
 
-.color-pink:hover {
-    color: #383838
-}
 .social a{
     padding-right: 20px;
     padding-top: 20px;
@@ -948,16 +991,51 @@ p a.register {
     color: #000;
 }
 @media only screen and (min-width: 768px) {
+
+
+div.blog_logo.moto{
+    width:80%;
+    margin:0 auto;
+}
+.background_pages {
+    padding: 50px 0px 10px;
+}
+
+.timetable {
+    padding: 60px 0 60px 0;
+}
+
+.potting_para{
+/* The image used */
+  background-image: url("../images/parallax.png");
+
+  /* Set a specific height */
+  min-height: 550px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main_wrapper{
+	margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 80%;
+    }
+
     .right {
         float: right;
         width: 45%;
-        padding: 20px 0;
     }
 
     .left {
         float: left;
         width: 45%;
-        padding: 20px 0;
     }
 
         .left img {
@@ -979,13 +1057,13 @@ p a.register {
     /* social items*/
     .left-social-item {
         font-size: 20px;
-        color: black;
+        color: #282728;
         padding: 20px 1px 1px 40px;
         margin: 3px;
         float: left;
         width: 65px;
         height: 45px;
-        border:2px solid black;
+        border:2px solid #282728;
         background-color: rgba(255, 248, 245, 1);
         text-decoration:none;
     }
@@ -994,12 +1072,16 @@ p a.register {
             background-color:#ffffff;
             text-decoration:none;
         }
+
+       .blog .left-social-item{
+       background-color:#282728;
+       color:rgba(255, 248, 245, 1);
+       }
        
     /* Header */
     nav.menu {
         display: block;
     }
-
 
     .header1 {
         -webkit-transition: all 0.3s;
@@ -1034,15 +1116,28 @@ p a.register {
         display: block;
         height: 65px;
     }
-  
+
+  .credits{
+      display:block;
+      margin-top: -20px;
+      padding: 20px 10px 0px 10px;
+      padding: 20px 10px 0px 10px;
+      z-index:9900;
+      position: relative;
+      color:rgba(40, 39, 40, 0.5);
+      font-weight:bold;
+      font-style:italic;
+      float:right;
+  }
+
     .container-menu-header {
         width: 100%;
         top: 0px;
         left: 0px;
         position: fixed;
         z-index: 1100;
-        background-color: rgba(0,0,0,0.3);
-        border-bottom: 1px solid rgba(0,0,0,0.4);
+        background-color: rgba(0,0,0,0);
+        border-bottom: 1px solid rgba(0,0,0,0);
     }
 
     /* Menu */
@@ -1171,7 +1266,7 @@ p a.register {
         width: 47%;
         min-height: 450px;
         padding: 40px 40px 40px 12%;
-        border:5px solid black;
+        border:5px solid #282728;
         }
 
     .potting_small.onright li {
@@ -1189,13 +1284,14 @@ p a.register {
         position: absolute;
         margin-top:-100px;
         padding: 40px 40px 50px 50px;
-        width: 40%;
+        width: 42%;
         height: auto;
-        background-color:#fefaf7;
         z-index:1001;
-        border:5px solid black;
+        border:5px solid #282728;
     }
-
+    .video-related p{
+        width:70%;
+    }
 
     .video{
         position: absolute;
@@ -1217,13 +1313,17 @@ p a.register {
         margin-top: 100px;
     }
 
-    .banner_about, .banner_contact, .banner_stories {
+    .blog-reel li{
+        margin-top:-30px;
+        }
+
+    .banner_about, .banner_contact {
         width: 97%;
         min-height: 200px;
         margin: 0 auto;
     }
 
-    .banner_about .moto, .banner_contact .moto, .banner_stories .moto {
+    .banner_about .moto, .banner_contact .moto{
         max-width: 50%;
     }
 
@@ -1232,7 +1332,7 @@ p a.register {
         margin: 0 auto;
     }
     /*stories*/
-    .container .stories {
+    .main_wrapper .stories {
         width: 70%;
         margin-right: 5%;
         margin-top: 0;
@@ -1252,8 +1352,12 @@ p a.register {
         min-width: 320px;
     }
 
-    footer {
-        padding: 35px 30px;
+ footer .get_in_touch2 {
+    width: 33%;
+    float: left;
+    padding: 0px 0px 10px 0px;
+    }
+
     }
 }
     @media only screen and (min-width: 992px) {
@@ -1272,7 +1376,7 @@ p a.register {
     }
 
         /*potting size*/
-        .container .potting_small.onleft, .container .potting_small.onright {
+        .main_wrapper .potting_small.onleft, .main_wrapper .potting_small.onright {
             max-width: 550px;
             width: 46%;
             height: 400px;
@@ -1315,7 +1419,6 @@ p a.register {
                 padding: 0px 40px 10px 0px;
                 float: left;
             }
-
 
             footer .inner_container {
                 padding: 0 50px 0 55px;
