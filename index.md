@@ -27,7 +27,7 @@ covid_holdoff: false
         <br />
         {% else %}
         <p class="center">
-            <strong>Regular meetings</strong> take place on the second Thursday of <strong>each month of 2022 at 7.30pm</strong>  in the National Botanic Gardens, Glasnevin.
+            <strong>Our next meeting is on Thursday May 12th at 7:30pm at the Botanic Gardens.</strong>
         </p>
         <p class="center" style="margin-top:-10px;">
            <strong>Why not show off?</strong>
