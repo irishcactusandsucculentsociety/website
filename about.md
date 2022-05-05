@@ -3,8 +3,8 @@ layout: default
 title: About
 ---
 <div class="pagebackground clearfix">
-    <div class="container">
-        <section class="background_pages banner_about">
+    <div class="main_wrapper secondary">
+        <section class="background_pages">
             <div class="about_header">
                 <h2>
                     About ICSS

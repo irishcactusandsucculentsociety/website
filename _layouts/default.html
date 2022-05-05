@@ -5,13 +5,9 @@
     <meta charset="UTF-8">
     <meta name="author" content="Gabriela Antohi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/app.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="/stylesheets/app.css "/>
     <link rel="stylesheet" href="/stylesheets/main.css "/>
     <link rel="stylesheet" href="/stylesheets/animsition/css/animsition.min.css"/>
-    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/animsition/css/animsition.min.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/stylesheets/slick/slick.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
@@ -70,7 +66,7 @@
 
 <!-- Footer -->
 <footer>
-    <div class="content-width">
+    <div class="content-width footer main_wrapper">
         <div class="inner_container clearfix">
             <div class="get_in_touch">
                 <h4>
@@ -78,16 +74,15 @@
                 </h4>
                 <p>
                     Any questions? Let us know by calling or texting <strong>{{ site.society_contact_number}}</strong>, or
-                    email<strong> <a href="mailto:{{ site.society_contact_email }}">{{ site.society_contact_email }}</a></strong>.
+                    email<strong> <a href="mailto:{{ site.society_contact_email }}" class="color_pink">{{ site.society_contact_email }}</a></strong>.
                 </p>
                 <!--social media - icons from fontawesome-->
                 <div class="social">
-                    <a href="{{ site.facebook_page_url }}" class="color_pink fa fa-facebook fa-2x" target="_blank"></a>
-                    <a href="{{ site.instagram_url}}" class="color_pink fa fa-instagram fa-2x" target="_blank"></a>
-                    <a href="{{ site.twitter_page_url }}" class="color_pink fa fa-twitter fa-2x" target="_blank"></a>
-                    <a href="{{ site.pinterest_url }}" class="color_pink fa fa-pinterest-p fa-2x" target="_blank"></a>
+                    <a href="{{ site.facebook_page_url }}" class="fa fa-facebook fa-2x" target="_blank"></a>
+                    <a href="{{ site.instagram_url}}" class="fa fa-instagram fa-2x" target="_blank"></a>
+                    <a href="{{ site.twitter_page_url }}" class="fa fa-twitter fa-2x" target="_blank"></a>
+                    <a href="{{ site.pinterest_url }}" class="fa fa-pinterest-p fa-2x" target="_blank"></a>
                 </div>
-
             </div>
             <div class="get_in_touch2">
                 <h4>
@@ -114,18 +109,9 @@
                 <i class="fa fa-angle-double-up" aria-hidden="true"></i>
             </span>
     </div>
-
 </footer>
 <script src="https://use.fontawesome.com/3d3a53909b.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{ "/javascripts/jquery.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/javascripts/mobile.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/javascripts/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/stylesheets/animsition/js/animsition.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/stylesheets/slick/slick.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/javascripts/slick-custom.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/javascripts/main.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/javascripts/mobile.js" | prepend: site.baseurl }}"></script>
 
 <script type="text/javascript" src="/javascripts/jquery.js"></script>
 <script type="text/javascript" src="/javascripts/mobile.js"></script>
@@ -134,7 +120,6 @@
 <script type="text/javascript" src="/stylesheets/slick/slick.min.js"></script>
 <script type="text/javascript" src="/javascripts/slick-custom.js"></script>
 <script type="text/javascript" src="/javascripts/main.js"></script>
-<script type="text/javascript" src="/javascripts/mobile.js"></script>
 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
