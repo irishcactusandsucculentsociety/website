@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ site.title }} - Blog</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriela Antohi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/app.css "/>
+    <link rel="stylesheet" href="/stylesheets/main.css "/>
+    <link rel="stylesheet" href="/stylesheets/animsition/css/animsition.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body class="animsition">
+<!-- Header -->
+<header>
+    <div class="left-social blog">
+        <a href="{{ site.facebook_page_url }}" class="left-social-item fa fa-facebook" target="_blank"></a>
+        <a href="{{ site.instagram_url}}" class="left-social-item fa fa-instagram" target="_blank"></a>
+        <a href="{{ site.twitter_page_url }}" class="left-social-item fa fa-twitter" target="_blank"></a>
+        <a href="{{ site.pinterest_url }}" class="left-social-item fa fa-pinterest-p" target="_blank"></a>
+    </div>
+</header>
+        <!-- logo moto blog_logo -->
+<div class="pagebackground clearfix blog">
+    <div class="main_wrapper secondary">
+        <section class="background_pages">
+            <a href="javascript:history.back()" class="back-link">
+                <i class="fa fa-angle-double-left" ></i>&nbsp;<strong>Back</strong>
+            </a>
+            <div class="about_header">
+                <p class="moto">ICSS Stories</p>
+            </div>
+        </section>
+        <div class ="blog-wrapper">
+            {{ content }}
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <div class="content-width clearfix main_wrapper" >
+        <div class="inner_container clearfix">
+            <div class="get_in_touch">
+                <h4>
+                    Get in touch
+                </h4>
+                <p>
+                    Any questions? Let us know by calling or texting <strong>{{ site.society_contact_number}}</strong>, or
+                    email<strong> <a href="mailto:{{ site.society_contact_email }}" class="color_pink">{{ site.society_contact_email }}</a></strong>.
+                </p>
+                <!--social media - icons from fontawesome-->
+                <div class="social">
+                    <a href="{{ site.facebook_page_url }}" class="fa fa-facebook fa-2x" target="_blank"></a>
+                    <a href="{{ site.instagram_url}}" class="fa fa-instagram fa-2x" target="_blank"></a>
+                    <a href="{{ site.twitter_page_url }}" class="fa fa-twitter fa-2x" target="_blank"></a>
+                    <a href="{{ site.pinterest_url }}" class="fa fa-pinterest-p fa-2x" target="_blank"></a>
+                </div>
+            </div>
+            <div class="get_in_touch2">
+                <h4>
+                    Address
+                </h4>
+                <p>
+                    Irish Cactus and Succulent Society<br />
+                    25 Shanowen Crescent<br />
+                    Dublin 9<br />
+                    Ireland
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="vertical">
+        <span></span><p> &copy; Irish Cactus and Succulent Society</p>
+    </div>
+
+    <!-- Back to top button :) -->
+    <div class="btn-back-to-top" id="myBtn">
+            <span class="symbol-btn-back-to-top">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+            </span>
+    </div>
+
+</footer>
+<script src="https://use.fontawesome.com/3d3a53909b.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/mobile.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/stylesheets/animsition/js/animsition.min.js"></script>
+<script type="text/javascript" src="/stylesheets/slick/slick.min.js"></script>
+<script type="text/javascript" src="/javascripts/slick-custom.js"></script>
+<script type="text/javascript" src="/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+{% if site.google_analytics_enabled %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics_id }}');
+</script>
+{% endif %}
+</body>
+</html>

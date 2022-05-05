@@ -45,7 +45,7 @@ input:focus, textarea:focus{
 	margin:100px auto 0 auto;
 }
 .section_about .left p, .section_about .right p {
-    color: #f6edeb;
+    color: black;
     font-family:Lato, sans-serif;
 }
 

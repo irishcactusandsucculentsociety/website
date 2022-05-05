@@ -6,77 +6,90 @@ covid_holdoff: false
 <section class="clearfix index">
     <div id="index_banner">
     </div>
+   <div class="credits">
+       [Notocactus Uebelmannianus in Derek Cluskey's collection] 
+    </div>
     <h2 class="index_header">
         Welcome to the Irish Cactus and Succulent Society Website
     </h2>
 </section>
 
 <!-- Calendar -->
-<section class="newproducts clearfix">
+<section class="timetable clearfix">
     <div class="container">
         {% if page.covid_holdoff %}
-        <p class="center">
+        <strong><p class="center">
             Due to the ongoing COVID restrictions our regular monthly meeting is cancelled.
-        </p>
-
+        </p></strong>
         <p class="center">
-            In the mean time, drop in to our <a href="{{ site.facebook_group_url }}">Facebook group</a> and say hello!
+            In the mean time, drop in to our <a href="{{ site.facebook_group_url }}" target="_blank">Facebook group</a> and say hello!
         </p>
         <br />
         {% else %}
         <p class="center">
-            <strong>Regular meetings</strong> take place on the second Thursday of <strong>each month of 2022 at 7.30pm</strong>  in the National Botanic Gardens, Glasnevin.
+            <strong>Our next meeting is on Thursday May 12th at 7:30pm at the Botanic Gardens.</strong>
         </p>
-        <p class="center">
-            There are no meetings in January or December.
+        <p class="center" style="margin-top:-10px;">
+           <strong>Why not show off?</strong>
         </p>
-        <!-- Slide2 -->
-        <div class="wrap-slick2">
-            <div class="slick2">
-            </div>
-        </div>
+        <p style="margin-top:-10px;">
+            Bring your ten favourite plants and put them on the bench! This is not competitive but does provide a chance to share plants that are not show-worthy or don’t fit a class or just to have a chat about their cultivation etc. We all have them – so bring them along and make it an interesting evening. It will also help you to get ready for the Show.
+        </p>   
+        <p style="margin-top:-10px;"><em>
+            Get into the habit of bringing along appropriate plants each month - after all horticultural societies are about plants!
+        </em></p>
         {% endif %}
     </div>
 </section>
 
-<!-- potting party -->
+<!-- become a member -->
 <section id="" class="potting clearfix">
     <div class="potting_small onleft">
-        <div class="text">
+        <div class="text" style="display:none">
             <h3>
-                Become a MEMBER!*:)
+                Become a member!*:)
             </h3>
         </div>
     </div>
-
     <div class="potting_small onright">
         <div class="text">
-            <p>
+            <h3>
                 <strong>
                     Benefits of membership
                 </strong>
-            </p>
+            </h3>
             <ul>
-                <li><span class="">&centerdot;</span> Illustrated talks on various methods of culture</li>
-                <li><span class="">&centerdot;</span> Extensive seed list  </li>
-                <li><span class="">&centerdot;</span> Society Library from which members may borrow books on all aspects of cacti and succulents </li>
-                <li><span class="">&centerdot;</span> Members plants sales or exchanges</li>
-                <li><span class="">&centerdot;</span> Advice on plant cultivation</li>
-                <li><span class="">&centerdot;</span> Four full colour magazines a year</li>
-                <li><span class="">&centerdot;</span> The Biannual Cactus & Succulent Society Branch Show.</li>
-                <li><span class="">&centerdot;</span> Lectures on various trips made to see these plants in their native habitat  </li>
-                <li><span class="">&centerdot;</span> Plants you wish to have identified  </li>
-                <li><span class="">&centerdot;</span> Exhibitions  </li>
+                <li>Illustrated talks on various methods of culture</li>
+                <li>Extensive seed list  </li>
+                <li>Society Library from which members may borrow books on all aspects of cacti and succulents </li>
+                <li>Members plants sales or exchanges</li>
+                <li>Advice on plant cultivation</li>
+                <li>Four full colour magazines a year</li>
+                <li>The Biannual Cactus & Succulent Society Branch Show.</li>
+                <li>Lectures on various trips made to see these plants in their native habitat  </li>
+                <li>Plants you wish to have identified  </li>
+                <li>Exhibitions  </li>
             </ul>
         </div>
     </div>
 </section>
-
-<section class="stories clearfix">
-    <div class="container">
-        <h3 class="center">
-            Latest News
-        </h3>
-        <!-- blog post -->
+<!-- Container element for parallax-->
+<div class="potting_para"></div>
+<section class="medias clearfix">
+    <div class="main_wrapper">
+        <br>
+        <div class="video-related">
+            <h3>
+                <strong>
+                    Events
+                </strong>
+            </h3>
+            <p> Our aim is to organize a show every year, our next one is on Saturday June 11th.</p>
+            <p> Here is a glimpse at our 2019 show.</p>
+        </div>
+        <!-- video cactus show -->
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/nULIo2jaWdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </section>
