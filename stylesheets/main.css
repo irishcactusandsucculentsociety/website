@@ -343,6 +343,20 @@ h2.index_header {
     line-height: 30px;
     font-weight:500;
 }
+
+  .credits{
+      display:block;
+      margin-top: -20px;
+      padding: 20px 10px 0px 10px;
+      padding: 20px 10px 0px 10px;
+      z-index:9900;
+      position: relative;
+      color:rgba(40, 39, 40, 0.5);
+      font-weight:bold;
+      font-style:italic;
+      float:right;
+  }
+
 .timetable {
     padding: 40px 0 40px 0;
 }
@@ -536,7 +550,7 @@ p a.color_pink:hover, p a.color_pink:active {
 .back-link {
     position:absolute;
     left:0;
-    top:116px;
+    top:70px;
     color:gray;
     font-size:16px;
     }
@@ -1019,6 +1033,9 @@ div.blog_logo.moto{
   background-size: cover;
 }
 
+.back-link {
+    top:116px;
+    }
 
 .main_wrapper{
 	margin-right: auto;
@@ -1117,18 +1134,6 @@ div.blog_logo.moto{
         height: 65px;
     }
 
-  .credits{
-      display:block;
-      margin-top: -20px;
-      padding: 20px 10px 0px 10px;
-      padding: 20px 10px 0px 10px;
-      z-index:9900;
-      position: relative;
-      color:rgba(40, 39, 40, 0.5);
-      font-weight:bold;
-      font-style:italic;
-      float:right;
-  }
 
     .container-menu-header {
         width: 100%;
