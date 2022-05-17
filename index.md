@@ -26,18 +26,15 @@ covid_holdoff: false
         </p>
         <br />
         {% else %}
-        <p class="center">
-            <strong>Our next meeting is on Thursday May 12th at 7:30pm at the Botanic Gardens.</strong>
+        <p class="center" style="margin-top:-10px; font-size:1.7em;">
+           <strong>ANNUAL PLANT SALE</strong>
         </p>
-        <p class="center" style="margin-top:-10px;">
-           <strong>Why not show off?</strong>
+        <p class="center" style="font-size:1.2em;">
+            <strong>Our next meeting/PLANT SALE is on Thursday, June 9th at 7:30pm at the Botanic Gardens.</strong>
         </p>
-        <p style="margin-top:-10px;">
-            Bring your ten favourite plants and put them on the bench! This is not competitive but does provide a chance to share plants that are not show-worthy or don’t fit a class or just to have a chat about their cultivation etc. We all have them – so bring them along and make it an interesting evening. It will also help you to get ready for the Show.
-        </p>   
-        <p style="margin-top:-10px;"><em>
-            Get into the habit of bringing along appropriate plants each month - after all horticultural societies are about plants!
-        </em></p>
+        <p class="center" style="margin-top:-10px; font-size:1.2em;">
+            We hope to see you all there! 
+        </p>
         {% endif %}
     </div>
 </section>
@@ -84,8 +81,8 @@ covid_holdoff: false
                     Events
                 </strong>
             </h3>
-            <p> Our aim is to organize a show every year, our next one is on Saturday June 11th.</p>
-            <p> Here is a glimpse at our 2019 show.</p>
+            <p> Our next show is scheduled for next year.</p>
+            <p> Here is a glimpse at a previous show.</p>
         </div>
         <!-- video cactus show -->
         <div class="video">
