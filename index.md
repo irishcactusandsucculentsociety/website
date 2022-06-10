@@ -26,18 +26,22 @@ covid_holdoff: false
         </p>
         <br />
         {% else %}
-        <p class="center">
-            <strong>Our next meeting is on Thursday May 12th at 7:30pm at the Botanic Gardens.</strong>
+<!--        <p class="center">
+            <strong>Our next meeting is on Thursday June 9th at 7:30pm at the Botanic Gardens.</strong>
         </p>
         <p class="center" style="margin-top:-10px;">
-           <strong>Why not show off?</strong>
+           <strong>Annual Plant Sale</strong>
         </p>
         <p style="margin-top:-10px;">
-            Bring your ten favourite plants and put them on the bench! This is not competitive but does provide a chance to share plants that are not show-worthy or don’t fit a class or just to have a chat about their cultivation etc. We all have them – so bring them along and make it an interesting evening. It will also help you to get ready for the Show.
-        </p>   
+	    While we have had to postpone the Cactus & Succulent show until next year, the good news is our Annual Plant Sale will be going ahead in June. Visitors & non-members are very welcome!
+        </p>
+        <p style="margin-top:-10px;">
+            If you're a member, you'll even get a discount on the plants!
+        </p>
         <p style="margin-top:-10px;"><em>
-            Get into the habit of bringing along appropriate plants each month - after all horticultural societies are about plants!
+            As always, feel free to bring along appropriate plants each month to show off and discuss them - after all horticultural societies are about plants!
         </em></p>
+-->
         {% endif %}
     </div>
 </section>
