@@ -26,7 +26,7 @@ covid_holdoff: false
         </p>
         <br />
         {% else %}
-        <p class="center" style="margin-top:-10px; font-size:1.7em;">
+<!--        <p class="center" style="margin-top:-10px; font-size:1.7em;">
            <strong>ANNUAL PLANT SALE</strong>
         </p>
         <p class="center" style="font-size:1.2em;">
@@ -35,6 +35,7 @@ covid_holdoff: false
         <p class="center" style="margin-top:-10px; font-size:1.2em;">
             We hope to see you all there! 
         </p>
+-->
         {% endif %}
     </div>
 </section>
