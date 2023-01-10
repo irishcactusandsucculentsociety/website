@@ -57,16 +57,16 @@ covid_holdoff: false
                 </strong>
             </h3>
             <ul>
-                <li>Illustrated talks on various methods of culture</li>
-                <li>Extensive seed list  </li>
-                <li>Society Library from which members may borrow books on all aspects of cacti and succulents </li>
+                <li>Online meetings to discuss plants, cultivation, and meet growers</li>
+                <li>In person meetings covering cacti and succulents</li>
                 <li>Members plants sales or exchanges</li>
+                <li>Society Library from which members may borrow books on all aspects of cacti and succulents</li>
                 <li>Advice on plant cultivation</li>
-                <li>Four full colour magazines a year</li>
-                <li>The Biannual Cactus & Succulent Society Branch Show.</li>
-                <li>Lectures on various trips made to see these plants in their native habitat  </li>
-                <li>Plants you wish to have identified  </li>
-                <li>Exhibitions  </li>
+                <li>A regular magazine featuring articles and photos from our members</li>
+                <li>Cactus & Succulent Shows held throughout the year.</li>
+                <li>Lectures on various trips made to see these plants in their native habitat</li>
+                <li>Plants you wish to have identified</li>
+                <li>Exhibitions</li>
             </ul>
         </div>
     </div>
