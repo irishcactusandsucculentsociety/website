@@ -63,7 +63,7 @@ covid_holdoff: false
                 <li>Members plants sales or exchanges</li>
                 <li>Society Library from which members may borrow books on all aspects of cacti and succulents</li>
                 <li>Advice on plant cultivation</li>
-                <li>Cactus & Succulent Shows held throughout the year.</li>
+                <li>Cactus & Succulent Shows held throughout the year. <a href="https://www.irelandcactus.com/show2024.html">Check out the 2024 show!><a/></li>
                 <li>Plants you wish to have identified</li>
                 <li>Exhibitions</li>
                 <li><b><a href="https://www.irelandcactus.com/join.html">Sign up here!</a></b></li>
@@ -83,7 +83,7 @@ covid_holdoff: false
                 </strong>
             </h3>
             <p> <b>April 28th:</b> <a href="https://www.facebook.com/events/1112751436732005/">Visit to Martin Bergman's Greenhouse</a></p>
-            <p> <b>May 25th:</b> <a href="https://www.facebook.com/events/2029021420812053/">Cactus and Succulent Show at the National Botanic Gardens</a> </p>
+            <p> <b>May 25th:</b> <a href="https://www.facebook.com/events/2029021420812053/">Cactus and Succulent Show at the National Botanic Gardens</a>. <a href="https://www.irelandcactus.com/show2024.html">Click for more information!</a></p>
             <p> <b>June 22nd:</b> <a href="https://www.facebook.com/events/3424715277673778/">Visit to Derek Cluskey's Greenhouse</a></p>
             <p> <b>August 17th:</b> <a href="https://www.facebook.com/events/766119132142495/">Visit to Jurate Simkute's Greenhouse</a></p>
             <p> Here is a glimpse at a previous show.</p>
