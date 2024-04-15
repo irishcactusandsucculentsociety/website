@@ -21,7 +21,7 @@ title: About
                 <p>The Dublin and District Society was founded in 1990 and for administrative purposes and support were constituted as a branch of the British Cactus and Succulent Society. So, DDCSS members used to receive the BCSS's beautifully illustrated quarterly magazine, CactusWorld, as just one of the benefits members received. It contains articles about new species, plants in the wild and cultivation techniques. </p>
 		<p>In November 2022, the Dublin and District Cactus and Succulent Society agreed at an AGM to cease accepting membership and to allow a national society to form.</p>
 		<p>The aim of the Irish Cactus and Succulent Society is to connect and educate people interested in growing cacti and succulents via in person and online meetings, catering for the national interest in the cultivation of these plants</p>
-                <p>Our main avenue for this is our Facebook Group - we look forward to meeting you and seeing your lovely plants or helping you however we can</p>
+                <p>Our main avenue for this is our <a href="https://www.facebook.com/groups/203262631112580/" target="_blank">Facebook group</a> - we look forward to meeting you and seeing your lovely plants or helping you however we can</p>
             </div>
             <div class="question img clearfix">
             </div>
