@@ -63,7 +63,7 @@ covid_holdoff: false
                 <li>Members plants sales or exchanges</li>
                 <li>Society Library from which members may borrow books on all aspects of cacti and succulents</li>
                 <li>Advice on plant cultivation</li>
-                <li>Cactus & Succulent Shows held throughout the year. <a href="https://www.irelandcactus.com/show2024.html">Check out the 2024 show!><a/></li>
+                <li>Cactus & Succulent Shows held throughout the year. <a href="https://www.irelandcactus.com/show2024.html">Check out the 2024 show!</a></li>
                 <li>Plants you wish to have identified</li>
                 <li>Exhibitions</li>
                 <li><b><a href="https://www.irelandcactus.com/join.html">Sign up here!</a></b></li>
