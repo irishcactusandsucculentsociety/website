@@ -65,6 +65,7 @@ covid_holdoff: false
                 <li>Cactus & Succulent Shows held throughout the year.</li>
                 <li>Plants you wish to have identified</li>
                 <li>Exhibitions</li>
+                <li><b><a href="https://www.irelandcactus.com/join.html">Sign up here!</a></b></li>
             </ul>
         </div>
     </div>
