@@ -62,9 +62,7 @@ covid_holdoff: false
                 <li>Members plants sales or exchanges</li>
                 <li>Society Library from which members may borrow books on all aspects of cacti and succulents</li>
                 <li>Advice on plant cultivation</li>
-                <li>A regular magazine featuring articles and photos from our members</li>
                 <li>Cactus & Succulent Shows held throughout the year.</li>
-                <li>Lectures on various trips made to see these plants in their native habitat</li>
                 <li>Plants you wish to have identified</li>
                 <li>Exhibitions</li>
             </ul>
@@ -82,7 +80,10 @@ covid_holdoff: false
                     Events
                 </strong>
             </h3>
-            <p> Our next show is scheduled for next year.</p>
+            <p> <b>April 28th:</b> <a href="https://www.facebook.com/events/1112751436732005/">Visit to Martin Bergman's Greenhouse</a></p>
+            <p> <b>May 25th:</b> <a href="https://www.facebook.com/events/2029021420812053/">Cactus and Succulent Show at the National Botanic Gardens</a> </p>
+            <p> <b>June 22nd:</b> <a href="https://www.facebook.com/events/3424715277673778/">Visit to Derek Cluskey's Greenhouse</a></p>
+            <p> <b>August 17th:</b> <a href="https://www.facebook.com/events/766119132142495/">Visit to Jurate Simkute's Greenhouse</a></p>
             <p> Here is a glimpse at a previous show.</p>
         </div>
         <!-- video cactus show -->
