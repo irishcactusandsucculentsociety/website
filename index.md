@@ -58,6 +58,7 @@ covid_holdoff: false
             </h3>
             <ul>
                 <li>Online meetings to discuss plants, cultivation, and meet growers</li>
+		<li>50% discount on purchases from <a href="https://irelandcactus.com/seedbank.html">our Seed Bank</a></li>
                 <li>In person meetings covering cacti and succulents</li>
                 <li>Members plants sales or exchanges</li>
                 <li>Society Library from which members may borrow books on all aspects of cacti and succulents</li>
