@@ -82,11 +82,7 @@ covid_holdoff: false
                     Events
                 </strong>
             </h3>
-            <p> <b>April 28th:</b> <a href="https://www.facebook.com/events/1112751436732005/">Visit to Martin Bergman's Greenhouse</a></p>
-            <p> <b>May 25th:</b> <a href="https://www.facebook.com/events/2029021420812053/">Cactus and Succulent Show at the National Botanic Gardens</a>. <a href="https://www.irelandcactus.com/show2024.html">Click for more information!</a></p>
-            <p> <b>June 22nd:</b> <a href="https://www.facebook.com/events/3424715277673778/">Visit to Derek Cluskey's Greenhouse</a></p>
-            <p> <b>August 17th:</b> <a href="https://www.facebook.com/events/766119132142495/">Visit to Jurate Simkute's Greenhouse</a></p>
-            <p> Here is a glimpse at the 2024 Cactus and Succulent Show.</p>
+            <p> Placeholder</p>
         </div>
         <!-- video cactus show -->
         <div class="video">
